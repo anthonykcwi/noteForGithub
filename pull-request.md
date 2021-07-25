@@ -21,14 +21,10 @@ from your repository into their repository
 7. Typical workflow
 
 
-   1. Creates the feature in a dedicated branch in local repository 
-   2. Pushes branch to a public repository
-   3. File a pull request 
-   4. Team review, discuss and alter the codes
-   5. Project maintainer merges the feature into official repository 
-   6. close the pull request 
-
+      1. Creates the feature in a dedicated branch in local repository 
+      2. Pushes branch to a public repository
+      3. File a pull request 
+      4. Team review, discuss and alter the codes
+      5. Project maintainer merges the feature into official repository 
+      6. Close the pull request 
 8. 
-
-   
-
