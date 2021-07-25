@@ -26,9 +26,9 @@ git add fast-forward.md
 
 ``
 
-5. Continue edit the file 
+6. Continue edit the file 
 
-6. When finish, commit the file to staging area 
+7. When finish, commit the file to staging area 
 
 ``
 git add fast-forward.md 
