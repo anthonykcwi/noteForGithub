@@ -18,17 +18,16 @@ $ git checkout fast-forward
 
 5. Create and add the file to local
 
-   `touch fast-forward.md
-   git add fast-forward.md`
+   `$ touch fast-forward.md`
+   `$ git add fast-forward.md`
 
-6. Continue editing the file 
+6. Open and edit file 
 
-7. When finish, commit the file to staging area 
+7. When finished, commit the file to staging area 
 
    `$ git commit fast_forward.md -m "fast_forward.md initial commit"`
 
-8. Continue editing the file until finish. You may or may not have 
-multiple commit in between. 
+8. Continue editing until finish. You may or may not have multiple commits in between. 
 
 9. Before fast-forward merge, run git status to be sure all changes are committed 
 
@@ -37,10 +36,11 @@ multiple commit in between.
    `nothing to commit, working directory clean`
 
 10. Switch to master branch 
+    
     `` 
     $ git checkout master 
     ``
-
+    
 11. Merge changes from fast-forward branch into the master branch 
 
     `$ git merge fast-foward` 
