@@ -31,6 +31,8 @@ git add fast-forward.md
 7. When finish, commit the file to staging area 
 
 ``
-git add fast-forward.md 
+git commit fast_forward.md -m "fast_forward.md initial commit"
 ``
+
+
 
