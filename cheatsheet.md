@@ -1,21 +1,21 @@
 ## Git Cheatsheet
 
-1. Initialize a project
+1. Create a new local repository
 ```
 $ git init 
 ```
 
-2. Specify username 
+2. Tell Git what author name to be used with your commits.
 ```
 $ git config --global user.name ‘Leo Fu’
 ```
 
-3. Specify password 
+3. Tell Git what email address to be used with your commits. 
 ```
 $ git config --global user.email ‘runrunleorun@gmail.com’
 ```
 
-4. Add a file to staging area
+4. Add a single file to staging area
 ```
 $ git add <filename>
 ```
@@ -27,10 +27,10 @@ $ git add *.html
 
 6. Add all files to staging area
 ```
-$ git add . 
+$ git add * 
 ```
 
-7. Check staging area status
+7. List the files that you have changed and those you still need to add or commit
 ```
 $ git status
 ```
@@ -45,11 +45,11 @@ $ git commit
 $ git commit -m ‘message’
 ```
 
-10. (todo: need clarification)
+10. If you haven't connected your local repository to a remote server, add the server to be able to push to it
 ```
 $ git remote add origins <url>
 ```
-  
+
 11. Print out remote (todo: need clarification)
 ```  
 $ git remote
@@ -91,3 +91,10 @@ $ git checkout <branch name>
 $ git merge <branch name>
 ```
 
+19. Drop all your local changes and commits,
+fetch the latest history from the server, and 
+point your local main branch at it.
+```
+$ git fetch origin 
+$ git reset --hard origin/master
+```
